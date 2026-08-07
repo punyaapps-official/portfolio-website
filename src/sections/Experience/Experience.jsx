@@ -44,12 +44,12 @@ const experiences = [
 
 function Experience() {
   return (
-    <section id="experience" className="py-24 bg-slate-950">
+    <section id="experience" className="py-24 bg-white dark:bg-black">
       <Container>
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <p className="uppercase tracking-[4px] text-blue-400 text-sm font-semibold">
+          <p className="uppercase tracking-[4px] text-neutral-900 dark:text-neutral-100 text-sm font-semibold">
             Experience
           </p>
 
@@ -57,7 +57,7 @@ function Experience() {
             My Professional Journey
           </h2>
 
-          <p className="mt-6 text-slate-400 leading-8">
+          <p className="mt-6 text-neutral-500 dark:text-neutral-400 leading-8">
             Over the past few years, I've worked on international websites,
             business automation, and custom web solutions across multiple industries.
           </p>
@@ -66,7 +66,7 @@ function Experience() {
 
         <div className="mt-20 relative">
 
-          <div className="absolute left-5 top-0 bottom-0 w-px bg-slate-800"></div>
+          <div className="absolute left-5 top-0 bottom-0 w-px bg-neutral-100 dark:bg-neutral-800"></div>
 
           <div className="space-y-12">
 
@@ -78,15 +78,15 @@ function Experience() {
                 className="relative pl-16"
               >
 
-                <div className="absolute left-0 top-2 w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center">
+                <div className="absolute left-0 top-2 w-10 h-10 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 flex items-center justify-center">
 
                   <BriefcaseBusiness size={18} />
 
                 </div>
 
-                <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8 hover:border-blue-500 transition">
+                <div className="rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-8 hover:border-neutral-900 dark:hover:border-neutral-100 transition">
 
-                  <div className="flex flex-wrap items-center gap-4 text-slate-400 text-sm">
+                  <div className="flex flex-wrap items-center gap-4 text-neutral-500 dark:text-neutral-400 text-sm">
 
                     <div className="flex items-center gap-2">
 
@@ -108,7 +108,7 @@ function Experience() {
 
                   </h3>
 
-                  <p className="text-blue-400 mt-2">
+                  <p className="text-neutral-900 dark:text-neutral-100 mt-2">
 
                     {job.company}
 
@@ -120,10 +120,10 @@ function Experience() {
 
                       <li
                         key={item}
-                        className="text-slate-400 flex gap-3"
+                        className="text-neutral-500 dark:text-neutral-400 flex gap-3"
                       >
 
-                        <span className="text-blue-400">•</span>
+                        <span className="text-neutral-900 dark:text-neutral-100">•</span>
 
                         <span>{item}</span>
 

@@ -7,7 +7,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="py-24 bg-slate-950"
+      className="py-24 bg-white dark:bg-black"
     >
       <Container>
 
@@ -15,7 +15,7 @@ function Projects() {
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <p className="uppercase tracking-[4px] text-blue-500 text-sm font-semibold">
+          <p className="uppercase tracking-[4px] text-neutral-900 dark:text-neutral-100 text-sm font-semibold">
             PORTFOLIO
           </p>
 
@@ -23,7 +23,7 @@ function Projects() {
             Selected Projects
           </h2>
 
-          <p className="mt-6 text-slate-400 text-lg leading-relaxed">
+          <p className="mt-6 text-neutral-500 dark:text-neutral-400 text-lg leading-relaxed">
             Explore a selection of projects showcasing my experience in WordPress development, custom plugins, web applications, API integrations, and workflow automation across various industries.
           </p>
 

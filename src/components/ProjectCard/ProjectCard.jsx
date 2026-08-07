@@ -26,11 +26,11 @@ function ProjectCard({
     <motion.article
       whileHover={{ y: -8 }}
       transition={{ duration: 0.25 }}
-      className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-xl hover:border-blue-500 hover:shadow-blue-900/20 transition-all duration-300"
+      className="overflow-hidden rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 shadow-xl hover:border-neutral-900 dark:hover:border-neutral-100 hover:shadow-blue-900/20 transition-all duration-300"
     >
       {/* Banner */}
 
-      <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 overflow-hidden">
+      <div className="aspect-video bg-gradient-to-br from-neutral-100 dark:from-neutral-800 to-neutral-50 dark:to-neutral-900 overflow-hidden">
 
         {image ? (
 
@@ -42,7 +42,7 @@ function ProjectCard({
 
         ) : (
 
-          <div className="w-full h-full flex flex-col items-center justify-center text-slate-500">
+          <div className="w-full h-full flex flex-col items-center justify-center text-neutral-400 dark:text-neutral-500">
 
             <Image
               size={42}
@@ -53,7 +53,7 @@ function ProjectCard({
               Project Preview
             </p>
 
-            <p className="mt-2 text-sm text-slate-600">
+            <p className="mt-2 text-sm text-neutral-400 dark:text-neutral-600">
               16 : 9 Screenshot
             </p>
 
@@ -67,25 +67,25 @@ function ProjectCard({
 
       <div className="p-8">
 
-        <p className="text-blue-400 uppercase tracking-[3px] text-xs font-semibold">
+        <p className="text-neutral-900 dark:text-neutral-100 uppercase tracking-[3px] text-xs font-semibold">
 
           {category}
 
         </p>
 
-        <h3 className="text-2xl font-bold mt-3 text-white">
+        <h3 className="text-2xl font-bold mt-3 text-neutral-900 dark:text-white">
 
           {title}
 
         </h3>
 
-        <p className="mt-4 text-slate-400 leading-7">
+        <p className="mt-4 text-neutral-500 dark:text-neutral-400 leading-7">
 
           {description}
 
         </p>
 
-        <div className="border-t border-slate-800 my-8"></div>
+        <div className="border-t border-neutral-200 dark:border-neutral-800 my-8"></div>
 
         {/* Information */}
 
@@ -95,16 +95,16 @@ function ProjectCard({
 
             <Building2
               size={18}
-              className="text-blue-500"
+              className="text-neutral-900 dark:text-neutral-100"
             />
 
             <div>
 
-              <p className="text-xs text-slate-500">
+              <p className="text-xs text-neutral-400 dark:text-neutral-500">
                 Client
               </p>
 
-              <p className="text-white">
+              <p className="text-neutral-900 dark:text-white">
                 {client}
               </p>
 
@@ -116,16 +116,16 @@ function ProjectCard({
 
             <User
               size={18}
-              className="text-blue-500"
+              className="text-neutral-900 dark:text-neutral-100"
             />
 
             <div>
 
-              <p className="text-xs text-slate-500">
+              <p className="text-xs text-neutral-400 dark:text-neutral-500">
                 Role
               </p>
 
-              <p className="text-white">
+              <p className="text-neutral-900 dark:text-white">
                 {role}
               </p>
 
@@ -137,16 +137,16 @@ function ProjectCard({
 
             <Calendar
               size={18}
-              className="text-blue-500"
+              className="text-neutral-900 dark:text-neutral-100"
             />
 
             <div>
 
-              <p className="text-xs text-slate-500">
+              <p className="text-xs text-neutral-400 dark:text-neutral-500">
                 Year
               </p>
 
-              <p className="text-white">
+              <p className="text-neutral-900 dark:text-white">
                 {year}
               </p>
 
@@ -164,7 +164,7 @@ function ProjectCard({
 
             <span
               key={item}
-              className="px-3 py-2 rounded-full bg-slate-800 border border-slate-700 text-sm text-slate-300"
+              className="px-3 py-2 rounded-full bg-neutral-100 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 text-sm text-neutral-600 dark:text-neutral-300"
             >
 
               {item}
@@ -179,7 +179,7 @@ function ProjectCard({
 
         <div className="mt-8">
 
-          <h4 className="font-semibold text-lg mb-4 text-white">
+          <h4 className="font-semibold text-lg mb-4 text-neutral-900 dark:text-white">
             Project Impact
           </h4>
 
@@ -194,10 +194,10 @@ function ProjectCard({
 
                 <CheckCircle
                   size={18}
-                  className="text-green-500 mt-1 flex-shrink-0"
+                  className="text-neutral-900 dark:text-neutral-100 mt-1 flex-shrink-0"
                 />
 
-                <p className="text-slate-400 leading-7">
+                <p className="text-neutral-500 dark:text-neutral-400 leading-7">
 
                   {item}
 
@@ -220,7 +220,7 @@ function ProjectCard({
               href={live}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white transition"
+              className="flex items-center gap-2 px-5 py-3 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:hover:bg-neutral-200 dark:text-neutral-900 transition"
             >
               <ExternalLink size={18} />
               Live Demo
@@ -232,7 +232,7 @@ function ProjectCard({
               href={github}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-700 hover:border-blue-500 text-white transition"
+              className="flex items-center gap-2 px-5 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 hover:border-neutral-900 dark:hover:border-neutral-100 text-neutral-900 dark:text-white transition"
             >
               <ExternalLink size={18} />
               GitHub

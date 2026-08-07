@@ -8,14 +8,14 @@ const sampleProjects = [
 
 function Projects() {
   return (
-    <section id="projects" className="py-16 bg-slate-950/40">
+    <section id="projects" className="py-16 bg-neutral-50 dark:bg-neutral-950">
       <Container>
         <h3 className="text-2xl font-bold mb-6">Projects</h3>
         <div className="grid gap-6 md:grid-cols-2">
           {sampleProjects.map((p) => (
-            <article key={p.id} className="p-6 bg-slate-900 rounded-lg">
+            <article key={p.id} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
               <h4 className="text-lg font-semibold">{p.title}</h4>
-              <p className="text-slate-300 mt-2">{p.desc}</p>
+              <p className="text-neutral-600 dark:text-neutral-300 mt-2">{p.desc}</p>
             </article>
           ))}
         </div>

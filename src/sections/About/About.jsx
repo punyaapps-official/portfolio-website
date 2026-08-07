@@ -10,7 +10,7 @@ import Container from "../../components/Container/Container";
 
 const services = [
   {
-    icon: <Globe className="w-8 h-8 text-blue-400" />,
+    icon: <Globe className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
     title: "Website Development",
     description:
       "Building fast, responsive, and scalable WordPress websites with a strong focus on user experience, SEO, and long-term maintainability.",
@@ -23,7 +23,7 @@ const services = [
     ],
   },
   {
-    icon: <Workflow className="w-8 h-8 text-blue-400" />,
+    icon: <Workflow className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
     title: "Workflow Automation",
     description:
       "Automating repetitive business processes to save time, reduce manual work, and improve operational efficiency.",
@@ -36,7 +36,7 @@ const services = [
     ],
   },
   {
-    icon: <Cable className="w-8 h-8 text-blue-400" />,
+    icon: <Cable className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
     title: "System Integration",
     description:
       "Connecting websites with third-party services through APIs to create seamless digital ecosystems for modern businesses.",
@@ -54,13 +54,13 @@ function About() {
   return (
     <section
       id="about"
-      className="py-24 bg-slate-950"
+      className="py-24 bg-white dark:bg-black"
     >
       <Container>
 
         <div className="max-w-3xl mx-auto text-center">
 
-          <p className="uppercase tracking-[4px] text-blue-400 text-sm font-semibold">
+          <p className="uppercase tracking-[4px] text-neutral-900 dark:text-neutral-100 text-sm font-semibold">
             What I Do
           </p>
 
@@ -68,7 +68,7 @@ function About() {
             Building More Than Websites
           </h2>
 
-          <p className="mt-8 text-slate-400 leading-8 text-lg">
+          <p className="mt-8 text-neutral-500 dark:text-neutral-400 leading-8 text-lg">
             I help businesses build scalable digital solutions by combining
             WordPress development, workflow automation, and system integration.
             My goal is not only to create beautiful websites, but also to
@@ -85,10 +85,10 @@ function About() {
               key={service.title}
               whileHover={{ y: -8 }}
               transition={{ duration: 0.25 }}
-              className="rounded-3xl border border-slate-800 bg-slate-900 p-8 hover:border-blue-500 transition-all"
+              className="rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-8 hover:border-neutral-900 dark:hover:border-neutral-100 transition-all"
             >
 
-              <div className="w-16 h-16 rounded-2xl bg-slate-800 flex items-center justify-center">
+              <div className="w-16 h-16 rounded-2xl bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center">
 
                 {service.icon}
 
@@ -100,7 +100,7 @@ function About() {
 
               </h3>
 
-              <p className="mt-5 text-slate-400 leading-8">
+              <p className="mt-5 text-neutral-500 dark:text-neutral-400 leading-8">
 
                 {service.description}
 
@@ -112,7 +112,7 @@ function About() {
 
                   <span
                     key={skill}
-                    className="px-3 py-2 rounded-full bg-slate-800 text-sm text-slate-300"
+                    className="px-3 py-2 rounded-full bg-neutral-100 dark:bg-neutral-800 text-sm text-neutral-600 dark:text-neutral-300"
                   >
                     {skill}
                   </span>
@@ -121,7 +121,7 @@ function About() {
 
               </div>
 
-              <div className="flex items-center gap-2 mt-8 text-blue-400 font-medium">
+              <div className="flex items-center gap-2 mt-8 text-neutral-900 dark:text-neutral-100 font-medium">
 
                 Learn More
 
@@ -146,16 +146,16 @@ function About() {
 
             <div
               key={label}
-              className="rounded-2xl border border-slate-800 bg-slate-900 p-6 text-center"
+              className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-6 text-center"
             >
 
-              <h3 className="text-4xl font-bold text-blue-400">
+              <h3 className="text-4xl font-bold text-neutral-900 dark:text-neutral-100">
 
                 {number}
 
               </h3>
 
-              <p className="mt-3 text-slate-400">
+              <p className="mt-3 text-neutral-500 dark:text-neutral-400">
 
                 {label}
 

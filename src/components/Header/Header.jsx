@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 
 function Header() {
   return (
-    <header className="py-6 bg-slate-900">
+    <header className="py-6 bg-neutral-50 dark:bg-neutral-900">
       <Container>
         <div className="flex items-center justify-between">
           <a href="#" className="text-xl font-bold">BYP</a>

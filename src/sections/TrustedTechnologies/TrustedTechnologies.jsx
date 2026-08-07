@@ -31,10 +31,10 @@ const tech = [
 
 function TrustedTechnologies() {
   return (
-    <section className="py-14 bg-slate-950">
+    <section className="py-14 bg-white dark:bg-black">
       <Container>
 
-        <p className="text-center uppercase tracking-[4px] text-slate-500 text-sm">
+        <p className="text-center uppercase tracking-[4px] text-neutral-400 dark:text-neutral-500 text-sm">
           Technologies I Work With
         </p>
 
@@ -44,10 +44,10 @@ function TrustedTechnologies() {
 
             <div
               key={item.name}
-              className="rounded-2xl border border-slate-800 bg-slate-900 p-6 hover:border-blue-500 transition"
+              className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-6 hover:border-neutral-900 dark:hover:border-neutral-100 transition"
             >
 
-              <div className="text-4xl text-blue-400 flex justify-center">
+              <div className="text-4xl text-neutral-900 dark:text-neutral-100 flex justify-center">
 
                 {item.icon}
 

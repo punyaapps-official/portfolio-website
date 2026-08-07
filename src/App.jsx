@@ -13,7 +13,7 @@ import Contact from "./sections/Contact/Contact";
 
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className="min-h-screen bg-white dark:bg-black text-neutral-900 dark:text-white">
 
       <Navbar />
 

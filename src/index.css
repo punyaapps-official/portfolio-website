@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+/* Aktifkan dark mode berbasis class (bukan hanya prefers-color-scheme),
+   supaya bisa di-toggle manual lewat tombol di Navbar */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}

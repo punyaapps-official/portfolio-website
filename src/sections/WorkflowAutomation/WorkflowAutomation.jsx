@@ -29,7 +29,7 @@ function WorkflowAutomation() {
   return (
     <section
       id="workflow"
-      className="py-24 bg-slate-950"
+      className="py-24 bg-white dark:bg-black"
     >
       <Container>
 
@@ -37,7 +37,7 @@ function WorkflowAutomation() {
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <p className="uppercase tracking-[4px] text-blue-500 text-sm font-semibold">
+          <p className="uppercase tracking-[4px] text-neutral-900 dark:text-neutral-100 text-sm font-semibold">
             WORKFLOW AUTOMATION
           </p>
 
@@ -45,7 +45,7 @@ function WorkflowAutomation() {
             Automating Business Processes with Modern Tools
           </h2>
 
-          <p className="mt-6 text-slate-400 text-lg leading-relaxed">
+          <p className="mt-6 text-neutral-500 dark:text-neutral-400 text-lg leading-relaxed">
             I design automation systems that connect websites, APIs,
             CRMs, payment gateways, and third-party applications,
             helping businesses eliminate repetitive work and improve
@@ -56,24 +56,24 @@ function WorkflowAutomation() {
 
         {/* Workflow */}
 
-        <div className="mt-20 rounded-3xl border border-slate-800 bg-slate-900 p-10">
+        <div className="mt-20 rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-10">
 
           <div className="grid lg:grid-cols-5 gap-6 items-center">
 
             {/* Trigger */}
 
-            <div className="rounded-2xl bg-slate-800 p-6 text-center">
+            <div className="rounded-2xl bg-neutral-100 dark:bg-neutral-800 p-6 text-center">
 
               <Workflow
                 size={34}
-                className="mx-auto text-blue-500"
+                className="mx-auto text-neutral-900 dark:text-neutral-100"
               />
 
               <h4 className="mt-4 font-semibold">
                 Trigger
               </h4>
 
-              <p className="text-sm text-slate-400 mt-2">
+              <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
                 Form Submission
               </p>
 
@@ -81,13 +81,13 @@ function WorkflowAutomation() {
 
             <div className="flex justify-center">
 
-              <ArrowRight className="text-slate-500" />
+              <ArrowRight className="text-neutral-400 dark:text-neutral-500" />
 
             </div>
 
             {/* Automation */}
 
-            <div className="rounded-2xl bg-blue-600 p-8 text-center">
+            <div className="rounded-2xl bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 p-8 text-center">
 
               <Bot
                 size={38}
@@ -98,7 +98,7 @@ function WorkflowAutomation() {
                 Automation Engine
               </h4>
 
-              <p className="text-blue-100 mt-2 text-sm">
+              <p className="text-white/70 dark:text-neutral-900/70 mt-2 text-sm">
                 Make • Zapier • n8n
               </p>
 
@@ -106,7 +106,7 @@ function WorkflowAutomation() {
 
             <div className="flex justify-center">
 
-              <ArrowRight className="text-slate-500" />
+              <ArrowRight className="text-neutral-400 dark:text-neutral-500" />
 
             </div>
 
@@ -114,25 +114,25 @@ function WorkflowAutomation() {
 
             <div className="space-y-4">
 
-              <div className="rounded-xl bg-slate-800 p-4 flex items-center gap-3">
+              <div className="rounded-xl bg-neutral-100 dark:bg-neutral-800 p-4 flex items-center gap-3">
 
-                <Globe className="text-blue-500" />
+                <Globe className="text-neutral-900 dark:text-neutral-100" />
 
                 <span>WordPress</span>
 
               </div>
 
-              <div className="rounded-xl bg-slate-800 p-4 flex items-center gap-3">
+              <div className="rounded-xl bg-neutral-100 dark:bg-neutral-800 p-4 flex items-center gap-3">
 
-                <Mail className="text-blue-500" />
+                <Mail className="text-neutral-900 dark:text-neutral-100" />
 
                 <span>HelpScout / Gmail</span>
 
               </div>
 
-              <div className="rounded-xl bg-slate-800 p-4 flex items-center gap-3">
+              <div className="rounded-xl bg-neutral-100 dark:bg-neutral-800 p-4 flex items-center gap-3">
 
-                <Database className="text-blue-500" />
+                <Database className="text-neutral-900 dark:text-neutral-100" />
 
                 <span>CRM & Database</span>
 
@@ -173,10 +173,10 @@ function WorkflowAutomation() {
 
                   <Webhook
                     size={18}
-                    className="text-blue-500 mt-1"
+                    className="text-neutral-900 dark:text-neutral-100 mt-1"
                   />
 
-                  <span className="text-slate-300">
+                  <span className="text-neutral-600 dark:text-neutral-300">
                     {item}
                   </span>
 

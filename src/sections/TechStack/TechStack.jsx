@@ -62,14 +62,14 @@ function TechStack() {
   ];
 
   return (
-    <section id="tech" className="py-24 bg-slate-950">
+    <section id="tech" className="py-24 bg-white dark:bg-black">
       <Container>
 
         {/* Heading */}
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <p className="uppercase tracking-[4px] text-blue-500 text-sm font-semibold">
+          <p className="uppercase tracking-[4px] text-neutral-900 dark:text-neutral-100 text-sm font-semibold">
             TECH STACK
           </p>
 
@@ -77,7 +77,7 @@ function TechStack() {
             Technologies I Use Every Day
           </h2>
 
-          <p className="mt-6 text-slate-400 text-lg leading-relaxed">
+          <p className="mt-6 text-neutral-500 dark:text-neutral-400 text-lg leading-relaxed">
             My toolkit combines modern web development, WordPress expertise,
             automation platforms, and cloud technologies to build scalable,
             maintainable, and business-focused digital solutions.
@@ -93,14 +93,14 @@ function TechStack() {
 
             <div
               key={category.title}
-              className="rounded-3xl border border-slate-800 bg-slate-900 p-8 hover:border-blue-500 transition duration-300"
+              className="rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-8 hover:border-neutral-900 dark:hover:border-neutral-100 transition duration-300"
             >
 
               <h3 className="text-2xl font-semibold">
                 {category.title}
               </h3>
 
-              <p className="text-slate-400 mt-3 leading-7">
+              <p className="text-neutral-500 dark:text-neutral-400 mt-3 leading-7">
                 {category.description}
               </p>
 

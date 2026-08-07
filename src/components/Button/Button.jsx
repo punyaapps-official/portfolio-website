@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function Button({ children, variant = 'primary', as = 'button', href, ...props }) {
+function Button({ children, variant = 'primary', as = 'button', href, className = '', ...props }) {
   const classes = {
-    primary: 'bg-blue-600 hover:bg-blue-700 text-white',
-    ghost: 'bg-transparent border border-slate-700 text-white hover:bg-slate-900',
+    primary: 'bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:hover:bg-neutral-200 dark:text-neutral-900',
+    ghost: 'bg-transparent border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900',
   }[variant];
 
   const Comp = as === 'a' ? 'a' : 'button';
@@ -13,7 +13,7 @@ function Button({ children, variant = 'primary', as = 'button', href, ...props }
     <motion.div whileTap={{ scale: 0.98 }} whileHover={{ y: -2 }}>
       <Comp
         href={href}
-        className={`inline-flex items-center gap-3 px-4 py-2 rounded-md font-medium ${classes}`}
+        className={`inline-flex items-center gap-3 px-4 py-2 rounded-md font-medium ${classes} ${className}`}
         {...props}
       >
         {children}
