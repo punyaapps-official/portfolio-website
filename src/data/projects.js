@@ -34,7 +34,7 @@ export const projects = [
       "Improved customer self-service experience",
     ],
 
-    live: "",
+    live: "https://itselectra.com/support-center/",
 
     github: "",
   },
@@ -50,7 +50,7 @@ export const projects = [
 
     company: "Freelance",
 
-    year: "2026",
+    year: "2025",
 
     role: "WordPress Developer",
 
@@ -72,7 +72,7 @@ export const projects = [
       "Easy content management",
     ],
 
-    live: "",
+    live: "https://javalegalsolution.id/",
 
     github: "",
   },
@@ -110,7 +110,7 @@ export const projects = [
       "Better user experience",
     ],
 
-    live: "",
+    live: "https://mastertourtravel.com/",
 
     github: "",
   },
@@ -126,7 +126,7 @@ export const projects = [
 
     company: "Freelance",
 
-    year: "2025",
+    year: "2023",
 
     role: "WordPress Developer",
 
@@ -186,7 +186,7 @@ export const projects = [
       "Supported ongoing digital marketing initiatives",
     ],
 
-    live: "",
+    live: "https://smarttravelism.id/",
 
     github: "",
   },
@@ -241,7 +241,7 @@ export const projects = [
 
     company: "PunyaApps",
 
-    year: "2024",
+    year: "2026",
 
     role: "Frontend Developer",
 
@@ -263,7 +263,7 @@ export const projects = [
       "Improved user experience",
     ],
 
-    live: "",
+    live: "https://menara-apps.web.app/",
 
     github: "",
   },
@@ -279,7 +279,7 @@ export const projects = [
 
     company: "Freelance",
 
-    year: "2024",
+    year: "2025",
 
     role: "Frontend Developer",
 
@@ -300,7 +300,7 @@ export const projects = [
       "Collaborative development",
     ],
 
-    live: "",
+    live: "https://nekomoapp.com/",
 
     github: "",
   },
@@ -376,7 +376,7 @@ export const projects = [
       "Improved user experience",
     ],
 
-    live: "",
+    live: "https://www.k-radiojember.com/",
 
     github: "",
   },
@@ -412,7 +412,7 @@ export const projects = [
       "Production-ready release",
     ],
 
-    live: "",
+    live: "https://masbryan.itch.io/gimedu-gijas",
 
     github: "",
   },
