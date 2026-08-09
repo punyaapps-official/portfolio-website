@@ -29,9 +29,7 @@ function Navbar() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <div className="hidden md:block">
-              <ThemeToggle />
-            </div>
+            <ThemeToggle />
 
             <div className="hidden md:block">
               <Button
@@ -70,19 +68,16 @@ function Navbar() {
               </a>
             ))}
 
-            <div className="flex items-center gap-3 mt-2 px-2">
-              <ThemeToggle />
-              <div className="flex-1">
-                <Button
-                  as="a"
-                  href="/CV_Bryan_YP.pdf"
-                  download="CV_Bryan_YP.pdf"
-                  variant="primary"
-                  className="w-full justify-center"
-                >
-                  Download CV
-                </Button>
-              </div>
+            <div className="mt-2 px-2">
+              <Button
+                as="a"
+                href="/CV_Bryan_YP.pdf"
+                download="CV_Bryan_YP.pdf"
+                variant="primary"
+                className="w-full justify-center"
+              >
+                Download CV
+              </Button>
             </div>
           </nav>
         )}

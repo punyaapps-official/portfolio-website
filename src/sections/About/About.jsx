@@ -16,10 +16,10 @@ const services = [
       "Building fast, responsive, and scalable WordPress websites with a strong focus on user experience, SEO, and long-term maintainability.",
     skills: [
       "WordPress",
-      "Elementor",
-      "WooCommerce",
-      "Landing Page",
-      "Performance Optimization",
+      "CodeIgniter",
+      "Laravel",
+      "React",
+      "Shopify",
     ],
   },
   {
@@ -32,7 +32,6 @@ const services = [
       "Zapier",
       "n8n",
       "GoHighLevel",
-      "HelpScout",
     ],
   },
   {
@@ -44,7 +43,7 @@ const services = [
       "REST API",
       "Firebase",
       "Stripe",
-      "Cloudflare",
+      "Google Cloud",
       "Google Workspace",
     ],
   },

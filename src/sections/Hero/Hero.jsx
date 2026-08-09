@@ -14,7 +14,7 @@ function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center lg:text-left"
+            className="text-center lg:text-left order-2 lg:order-none"
           >
 
             {/* Badge */}
@@ -30,14 +30,15 @@ function Hero() {
 
             {/* Title */}
             <h2 className="mt-4 sm:mt-6 text-xl sm:text-2xl text-neutral-800 dark:text-neutral-200 font-medium">
-              WordPress Developer
+              Web Developer
             </h2>
 
             {/* Description */}
             <p className="mt-4 sm:mt-6 text-neutral-500 dark:text-neutral-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              I build modern WordPress websites, automate business workflows,
-              integrate APIs, and solve complex technical problems for
-              international clients.
+              I build and maintain modern, high-performing websites — with WordPress
+              as my core specialty, alongside hands-on experience in React, Laravel,
+              and CodeIgniter. I also automate business workflows, integrate APIs,
+              and solve complex technical problems for international clients.
             </p>
 
             {/* Button */}
@@ -89,7 +90,7 @@ function Hero() {
           <motion.div
             initial={{ opacity: 0, scale: .95 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="flex justify-center"
+            className="flex justify-center order-1 lg:order-none"
           >
 
             <div className="relative w-full max-w-[240px] sm:max-w-[300px] lg:max-w-[360px]">

@@ -1,14 +1,13 @@
 import Section from "./components/Section/Section";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Hero from "./sections/Hero/Hero";
 import TrustedTechnologies from "./sections/TrustedTechnologies/TrustedTechnologies";
-import CareerHighlights from "./sections/CareerHighlights/CareerHighlights";
 import About from "./sections/About/About";
 import Experience from "./sections/Experience/Experience";
 import Projects from "./sections/Projects/Projects";
 import WorkflowAutomation from "./sections/WorkflowAutomation/WorkflowAutomation";
-import TechStack from "./sections/TechStack/TechStack";
 import Contact from "./sections/Contact/Contact";
 
 function App() {
@@ -21,8 +20,6 @@ function App() {
 
       <TrustedTechnologies />
 
-      {/* <CareerHighlights /> */}
-
       <About />
 
       <Experience />
@@ -31,11 +28,13 @@ function App() {
 
       <WorkflowAutomation />
 
-      <TechStack />
+      {/* <TechStack /> */}
 
       <Contact />
 
       <Footer />
+
+      <ScrollToTop />
 
     </main>
   );

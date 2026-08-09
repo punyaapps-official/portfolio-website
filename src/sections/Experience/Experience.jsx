@@ -5,39 +5,38 @@ import Container from "../../components/Container/Container";
 
 const experiences = [
   {
-    period: "2025 - Present",
-    company: "Sites Guru",
-    position: "WordPress Developer",
+    period: "2025 - 2026",
+    company: "Sites Guru (Freelance)",
+    position: "Web Developer (International Clients)",
     location: "Indonesia",
     achievements: [
-      "Maintained and optimized 30+ international websites.",
-      "Developed custom WordPress plugin for HelpScout Member Portal.",
-      "Integrated third-party APIs and automation workflows.",
-      "Handled website migrations, performance optimization, and technical support.",
+      "Developed and maintained 30+ international client websites using WordPress, GoHighLevel, Squarespace, GoDaddy, and Systeme.io.",
+      "Ensured optimal performance, security, responsiveness, maintenance, hosting migration, and website service integration.",
+      "Handled technical support, developed custom WordPress plugins, and built workflow automations using Make, Zapier, n8n, and GoHighLevel to improve operational efficiency.",
     ],
   },
 
   {
-    period: "2023 - 2025",
-    company: "SmartTravelism",
-    position: "Full Stack Web Developer",
+    period: "2022 - 2025",
+    company: "SmartTravelism (Contract)",
+    position: "WordPress Developer (Staff IT)",
     location: "Indonesia",
     achievements: [
-      "Built multiple business websites using WordPress and React.",
-      "Created workflow automation using Make, Zapier, and n8n.",
-      "Integrated Firebase, Google Workspace, and external APIs.",
+      "Developed and maintained the company's WordPress website.",
+      "Ensured optimal performance, security, SEO, and responsiveness of the website.",
+      "Evaluated website performance and visitor traffic to support the company's digital strategy.",
     ],
   },
 
   {
-    period: "2021 - 2023",
-    company: "Various Projects",
-    position: "Web Developer",
+    period: "2021",
+    company: "K Radio Jember (Internship)",
+    position: "Front-End Developer (Internship)",
     location: "Indonesia",
     achievements: [
-      "Developed internal business systems.",
-      "Created GIS applications and HTML5 games.",
-      "Worked with CodeIgniter, PHP, JavaScript, and MySQL.",
+      "Developed responsive website interfaces using HTML, CSS, and JavaScript.",
+      "Ensured the website's appearance matched the intended design.",
+      "Collaborated with UI/UX Designers, Backend Developers, and Project Managers.",
     ],
   },
 ];
