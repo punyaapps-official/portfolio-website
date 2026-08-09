@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-white dark:bg-black py-28 lg:py-0">
+    <section className="min-h-screen flex items-center bg-white dark:bg-black pt-10 pb-16 lg:pt-[50px] lg:pb-[50px]">
       <Container>
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 

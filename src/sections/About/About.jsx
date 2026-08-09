@@ -134,38 +134,6 @@ function About() {
 
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
-
-          {[
-            ["4+", "Years Experience"],
-            ["30+", "International Websites"],
-            ["10+", "Projects Completed"],
-            ["100%", "Remote Collaboration"],
-          ].map(([number, label]) => (
-
-            <div
-              key={label}
-              className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-6 text-center"
-            >
-
-              <h3 className="text-4xl font-bold text-neutral-900 dark:text-neutral-100">
-
-                {number}
-
-              </h3>
-
-              <p className="mt-3 text-neutral-500 dark:text-neutral-400">
-
-                {label}
-
-              </p>
-
-            </div>
-
-          ))}
-
-        </div>
-
       </Container>
     </section>
   );

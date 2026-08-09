@@ -1,29 +1,24 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import Container from "../../components/Container/Container";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { projects } from "../../data/projects";
 
+// Tag filter tetap (bukan otomatis dari data), biar tidak terlalu banyak tombol.
+// "Lainnya" menampilkan project yang tidak memakai WordPress/CodeIgniter/React.
+const MAIN_TAGS = ["WordPress", "CodeIgniter", "React"];
+const tags = ["All", ...MAIN_TAGS, "Lainnya"];
+
 function Projects() {
   const [activeTag, setActiveTag] = useState("All");
 
-  // Ambil semua tag teknologi unik dari data project secara otomatis,
-  // supaya kalau kamu tambah project baru dengan tech baru, filter ikut update sendiri.
-  const tags = useMemo(() => {
-    const unique = [];
-    projects.forEach((project) => {
-      (project.technologies || []).forEach((tech) => {
-        if (!unique.includes(tech)) unique.push(tech);
-      });
-    });
-    return ["All", ...unique];
-  }, []);
-
-  const filteredProjects =
-    activeTag === "All"
-      ? projects
-      : projects.filter((project) =>
-          (project.technologies || []).includes(activeTag)
-        );
+  const filteredProjects = projects.filter((project) => {
+    const techs = project.technologies || [];
+    if (activeTag === "All") return true;
+    if (activeTag === "Lainnya") {
+      return !MAIN_TAGS.some((tag) => techs.includes(tag));
+    }
+    return techs.includes(activeTag);
+  });
 
   return (
     <section
