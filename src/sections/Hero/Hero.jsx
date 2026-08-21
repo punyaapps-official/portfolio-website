@@ -35,7 +35,7 @@ function Hero() {
 
             {/* Description */}
             <p className="mt-4 sm:mt-6 text-neutral-500 dark:text-neutral-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              I build and maintain modern, high-performing websites — with WordPress
+              I build and maintain modern, high-performing websites with WordPress
               as my core specialty, alongside hands-on experience in React, Laravel,
               and CodeIgniter. I also automate business workflows, integrate APIs,
               and solve complex technical problems for international clients.

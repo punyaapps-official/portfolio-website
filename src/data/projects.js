@@ -1,177 +1,278 @@
 export const projects = [
   {
     id: 1,
-
     title: "HelpScout Member Portal",
-
     category: "Custom WordPress Plugin",
-
     client: "International Client",
-
     company: "SitesGuru",
-
     year: "2026",
-
     role: "WordPress Developer",
-
     image: "/projects/helpscout.jpg",
-
     description:
       "Designed and developed a custom WordPress plugin that seamlessly integrated the HelpScout API into a secure member portal. Customers could create, manage, and reply to support tickets directly from their dashboard, improving the support experience while reducing manual communication.",
-
     technologies: [
       "WordPress",
-      "PHP",
-      "REST API",
+      "Code Snippets",
       "HelpScout API",
       "JavaScript",
       "AJAX",
     ],
-
     impact: [
       "Integrated HelpScout directly into WordPress",
       "Reduced email-based customer support",
       "Improved customer self-service experience",
     ],
-
-    live: "",
-
+    live: "https://itselectra.com/support-center/",
     github: "",
   },
 
   {
     id: 2,
-
-    title: "Java Legal",
-
-    category: "Corporate Website",
-
-    client: "Java Legal",
-
-    company: "Freelance",
-
+    title: "BEU Business Network",
+    category: "WordPress Recovery & Maintenance",
+    client: "BEU Business Network",
+    company: "Electra Digital",
     year: "2026",
-
     role: "WordPress Developer",
-
-    image: "/projects/java-legal.jpg",
-
+    image: "/projects/beu-business-network.jpg",
     description:
-      "Developed a modern corporate website focused on professionalism, credibility, and user experience. Built a scalable content management system that enables easy content updates while maintaining excellent performance across devices.",
-
+      "Performed a full recovery and maintenance overhaul for a WordPress site suffering from severe slowdowns caused by malware, conflicting plugins, and a bloated database. Migrated hosting from DreamHost to Cloudways, backed up the site, audited and removed duplicate plugins, updated the theme and core versions, and coordinated with hosting and plugin support teams to fully resolve the issues — confirmed with a significantly improved PageSpeed Insights score.",
     technologies: [
       "WordPress",
-      "Elementor",
+      "Cloudways",
+      "DreamHost",
+      "UpdraftPlus",
       "PHP",
-      "CSS",
     ],
-
     impact: [
-      "Modern corporate branding",
-      "Responsive across all devices",
-      "Easy content management",
+      "Resolved malware infection and plugin conflicts",
+      "Migrated hosting from DreamHost to Cloudways",
+      "Improved PageSpeed Insights performance score",
     ],
-
-    live: "",
-
+    live: "https://www.beubusinessnetwork.com/",
     github: "",
   },
 
   {
     id: 3,
-
-    title: "Master Tour",
-
-    category: "Travel Website",
-
-    client: "Master Tour",
-
-    company: "Freelance",
-
+    title: "Tirado Law Office",
+    category: "Website Management & Automation",
+    client: "Tirado Law Office",
+    company: "Electra Digital",
     year: "2026",
+    role: "Web Developer & Automation Specialist",
+    image: "/projects/tirado-law-office.jpg",
+    description:
+      "Managed ongoing content updates, UI improvements, and QA testing (links, buttons, and forms) for a law firm's Systeme.io website, alongside several integrated platforms including MyCase, BestCase, Calendly, Jotform, and VistaPrint. Built Zapier automations to sync client intake and consultation form submissions to Google Sheets, and to log Calendly booking details automatically. Also supported daily operations by organizing Google Drive documents and managing the team's Google Workspace and Outlook mailboxes, folders, and access permissions.",
+    technologies: [
+      "Systeme.io",
+      "Zapier",
+      "Calendly",
+      "Google Sheets",
+      "Google Workspace",
+    ],
+    impact: [
+      "Automated client intake and consultation booking data",
+      "Streamlined document organization across Google Drive",
+      "Improved team email and workspace management",
+    ],
+    live: "https://www.tiradolawoffice.com/",
+    github: "",
+  },
 
+  {
+    id: 4,
+    title: "Mountain Vista Psychology",
+    category: "WordPress Redesign & Automation",
+    client: "Mountain Vista Psychology",
+    company: "Electra Digital",
+    year: "2026",
+    role: "WordPress Developer & Automation Specialist",
+    image: "/projects/mountain-vista-psychology.jpg",
+    description:
+      "Redesigned several sections and built new pages for a WordPress website, and integrated GoHighLevel to power the site's consultation form. Set up automations for team notifications, client confirmation emails, and reminders, and managed a GHL-based course used to train the client's medical staff. One of the more challenging parts of the project was creating clear, easy-to-follow English video walkthroughs to help the client and their non-technical team confidently operate the website and e-course.",
+    technologies: [
+      "WordPress",
+      "GoHighLevel",
+      "Automation",
+      "CSS",
+    ],
+    impact: [
+      "Integrated GHL consultation form with automated notifications",
+      "Set up an internal e-course for medical staff training",
+      "Simplified handover with clear documentation and video guides",
+    ],
+    live: "https://www.mountainvistapsychology.com/",
+    github: "",
+  },
+
+  {
+    id: 5,
+    title: "B&R Painting",
+    category: "Website Redesign & Local SEO",
+    client: "B&R Painting",
+    company: "Electra Digital",
+    year: "2025 - 2026",
+    role: "Web Developer & SEO Specialist",
+    image: "/projects/bandr-painting.jpg",
+    description:
+      "Rebuilt the company's GoDaddy website from the ground up, including new content, a fresh design, and a streamlined service booking flow, while managing the domain and hosting. Optimized on-page SEO to target relevant local keywords and registered the business on Google Business Profile, Microsoft Business, and other listing platforms to improve visibility for painting services in the Colorado Springs area.",
+    technologies: [
+      "GoDaddy",
+      "SEO",
+      "Google Business Profile",
+    ],
+    impact: [
+      "Redesigned website and service booking flow",
+      "Improved local SEO visibility in Colorado Springs",
+      "Registered business across major listing platforms",
+    ],
+    live: "https://bandrpainting.com/",
+    github: "",
+  },
+
+  {
+    id: 6,
+    title: "Electra Digital",
+    category: "Agency Web & Automation Management",
+    client: "Electra Digital",
+    company: "Electra Digital",
+    year: "2025 - 2026",
+    role: "Web Developer & Automation Specialist",
+    image: "/projects/electra-digital.jpg",
+    description:
+      "Ongoing website maintenance and redesign for my main agency client, a Colorado-based web and digital services provider whose own clients include the projects above. Built monthly automated reporting emails using Make, n8n, and Zapier to keep each client informed of completed work, and developed the TOPA product page, where client form submissions and payments automatically trigger business document generation in Google Drive along with a follow-up email outlining business gaps and next steps. Also manage Cloudways hosting and Cloudflare configuration across the agency's client portfolio.",
+    technologies: [
+      "WordPress",
+      "GoHighLevel",
+      "Make",
+      "n8n",
+      "Zapier",
+      "Cloudways",
+      "Cloudflare",
+    ],
+    impact: [
+      "Automated monthly client reporting via email",
+      "Built an end-to-end automated document generation product (TOPA)",
+      "Managed hosting and security infrastructure for multiple client sites",
+    ],
+    live: "https://itselectra.com/total-online-presence-analysis/",
+    github: "",
+  },
+
+  {
+    id: 7,
+    title: "Menara Apps",
+    category: "React Web Application",
+    client: "Dosen Universitas",
+    company: "Poltekkes WHN Malang",
+    year: "2026",
+    role: "Full Stack Developer",
+    image: "/projects/menara.jpg",
+    description:
+      "Contributed to the development of a React-based web application by building reusable UI components, integrating APIs, and improving the application's responsiveness.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Firebase",
+    ],
+    impact: [
+      "Reusable component architecture",
+      "Responsive interface",
+      "Improved user experience",
+    ],
+    live: "https://menara-apps.web.app/",
+    github: "",
+  },
+
+  {
+    id: 8,
+    title: "Master Tour",
+    category: "Travel Website",
+    client: "Master Tour",
+    company: "Freelance",
+    year: "2026",
     role: "WordPress Developer",
-
     image: "/projects/master-tour.jpg",
-
     description:
       "Built a complete travel website with a focus on speed, responsive design, and conversion-oriented landing pages. Optimized performance to deliver a smooth browsing experience for potential customers.",
-
     technologies: [
       "WordPress",
       "Elementor",
       "Performance Optimization",
       "CSS",
     ],
-
     impact: [
       "Improved website performance",
       "Responsive landing pages",
       "Better user experience",
     ],
-
-    live: "",
-
+    live: "https://mastertourtravel.com/",
     github: "",
   },
 
   {
-    id: 4,
-
-    title: "Momentku",
-
-    category: "Digital Invitation Platform",
-
-    client: "Momentku",
-
-    company: "Freelance",
-
+    id: 9,
+    title: "Nekomo Apps",
+    category: "React Application",
+    client: "Siswa SMA",
+    company: "SMA Al Azhar Jakarta",
     year: "2025",
-
-    role: "WordPress Developer",
-
-    image: "/projects/momentku.jpg",
-
+    role: "Frontend Developer",
+    image: "/projects/nekomo.jpg",
     description:
-      "Developed an elegant digital invitation platform featuring responsive layouts, lightweight performance, and mobile-first design to ensure an enjoyable user experience across all devices.",
+      "Collaborated on the development of a React application by implementing frontend features, resolving bugs, and improving overall application usability.",
+    technologies: [
+      "React",
+      "Firebase",
+      "JavaScript",
+    ],
+    impact: [
+      "Frontend feature implementation",
+      "Performance improvements",
+      "Collaborative development",
+    ],
+    live: "https://nekomoapp.com/",
+    github: "",
+  },
 
+  {
+    id: 10,
+    title: "Java Legal",
+    category: "Corporate Website",
+    client: "Java Legal",
+    company: "Freelance",
+    year: "2025",
+    role: "WordPress Developer",
+    image: "/projects/java-legal.jpg",
+    description:
+      "Developed a modern corporate website focused on professionalism, credibility, and user experience. Built a scalable content management system that enables easy content updates while maintaining excellent performance across devices.",
     technologies: [
       "WordPress",
       "Elementor",
+      "PHP",
       "CSS",
     ],
-
     impact: [
-      "Modern UI design",
-      "Fast loading performance",
-      "Mobile-first experience",
+      "Modern corporate branding",
+      "Responsive across all devices",
+      "Easy content management",
     ],
-
-    live: "",
-
+    live: "https://javalegalsolution.com/",
     github: "",
   },
 
   {
-    id: 5,
-
+    id: 11,
     title: "SmartTravelism",
-
     category: "Corporate Website",
-
     client: "SmartTravelism",
-
     company: "SmartTravelism",
-
     year: "2022 - 2025",
-
     role: "WordPress Developer",
-
     image: "/projects/smarttravelism.jpg",
-
     description:
       "Maintained and continuously enhanced the company's WordPress website over a three-year period. Responsibilities included website maintenance, performance optimization, security improvements, SEO support, and ensuring long-term platform stability.",
-
     technologies: [
       "WordPress",
       "PHP",
@@ -179,241 +280,139 @@ export const projects = [
       "CSS",
       "SEO",
     ],
-
     impact: [
       "Maintained production website for over 3 years",
       "Improved loading speed and stability",
       "Supported ongoing digital marketing initiatives",
     ],
-
-    live: "",
-
+    live: "https://smarttravelism.id/",
     github: "",
   },
 
   {
-    id: 6,
-
-    title: "Workflow Automation",
-
-    category: "Business Process Automation",
-
-    client: "International Clients",
-
-    company: "SitesGuru",
-
-    year: "2025 - 2026",
-
-    role: "Automation Specialist",
-
-    image: "/projects/automation.jpg",
-
+    id: 12,
+    title: "Momentku",
+    category: "Digital Invitation Platform",
+    client: "Momentku",
+    company: "Freelance",
+    year: "2023",
+    role: "WordPress Developer",
+    image: "/projects/momentku.jpg",
     description:
-      "Designed and implemented workflow automation solutions using Make, Zapier, n8n, and GoHighLevel. Automated repetitive business processes and integrated third-party services to improve operational efficiency.",
-
+      "Developed an elegant digital invitation platform featuring responsive layouts, lightweight performance, and mobile-first design to ensure an enjoyable user experience across all devices.",
     technologies: [
-      "Make",
-      "Zapier",
-      "n8n",
-      "GoHighLevel",
-      "REST API",
-    ],
-
-    impact: [
-      "Reduced repetitive manual work",
-      "Connected multiple business platforms",
-      "Improved operational efficiency",
-    ],
-
-    live: "",
-
-    github: "",
-  },
-
-  {
-    id: 7,
-
-    title: "Menara Apps",
-
-    category: "React Web Application",
-
-    client: "Internal Project",
-
-    company: "PunyaApps",
-
-    year: "2024",
-
-    role: "Frontend Developer",
-
-    image: "/projects/menara.jpg",
-
-    description:
-      "Contributed to the development of a React-based web application by building reusable UI components, integrating APIs, and improving the application's responsiveness.",
-
-    technologies: [
-      "React",
-      "JavaScript",
-      "REST API",
+      "WordPress",
+      "Elementor",
       "CSS",
     ],
-
     impact: [
-      "Reusable component architecture",
-      "Responsive interface",
-      "Improved user experience",
+      "Modern UI design",
+      "Fast loading performance",
+      "Mobile-first experience",
     ],
-
-    live: "",
-
+    live: "https://momentku.my.id/",
     github: "",
   },
 
   {
-    id: 8,
-
-    title: "Nekomo Apps",
-
-    category: "React Application",
-
-    client: "Nekomo",
-
-    company: "Freelance",
-
-    year: "2024",
-
-    role: "Frontend Developer",
-
-    image: "/projects/nekomo.jpg",
-
+    id: 13,
+    title: "HC Admin (Dashboard Custom)",
+    category: "Web ERD",
+    client: "Company Project",
+    company: "SmartID",
+    year: "2022 - 2023",
+    role: "Full Stack Developer",
+    image: "/projects/HRD-Dashboard.jpg",
     description:
-      "Collaborated on the development of a React application by implementing frontend features, resolving bugs, and improving overall application usability.",
-
+      "Developed a custom HR administration dashboard for internal company use, featuring interactive data visualizations, employee record management, and database-driven reporting to support HR decision-making.",
     technologies: [
-      "React",
-      "Firebase",
+      "CodeIgniter",
+      "PHP",
+      "MySQL",
       "JavaScript",
     ],
-
     impact: [
-      "Frontend feature implementation",
-      "Performance improvements",
-      "Collaborative development",
+      "Interactive dashboard visualization",
+      "Database integration",
+      "Full-stack implementation",
     ],
-
-    live: "",
-
+    live: "https://hc-smartid.id/",
     github: "",
   },
 
   {
-    id: 9,
-
+    id: 14,
     title: "Earthquake Geographic Information System",
-
     category: "Web GIS",
-
     client: "University Project",
-
     company: "Universitas Brawijaya",
-
     year: "2022",
-
     role: "Full Stack Developer",
-
     image: "/projects/gis.jpg",
-
     description:
       "Developed a web-based Geographic Information System using CodeIgniter to visualize earthquake data through interactive maps and location-based analysis.",
-
     technologies: [
       "CodeIgniter",
       "PHP",
       "MySQL",
       "Leaflet",
     ],
-
     impact: [
       "Interactive GIS visualization",
       "Database integration",
       "Full-stack implementation",
     ],
-
-    live: "",
-
+    live: "https://web-gis.online/",
     github: "",
   },
 
   {
-    id: 10,
+    id: 15,
+    title: "GIJAS HTML5 Platform Game",
+    category: "HTML5 Game",
+    client: "Personal Project",
+    company: "Personal",
+    year: "2022",
+    role: "Game Developer",
+    image: "/projects/gijas.jpg",
+    description:
+      "Designed and developed a 2D HTML5 platform game using Construct 2, covering gameplay mechanics, level design, and final production deployment.",
+    technologies: [
+      "Construct 2",
+      "HTML5",
+    ],
+    impact: [
+      "Complete game development",
+      "Gameplay implementation",
+      "Production-ready release",
+    ],
+    live: "https://masbryan.itch.io/gimedu-gijas",
+    github: "",
+  },
 
+  {
+    id: 16,
     title: "K Radio Jember",
-
     category: "Corporate Website",
-
     client: "K Radio Jember",
-
     company: "Internship",
-
     year: "2021",
-
     role: "Frontend Developer",
-
     image: "/projects/kradio.jpg",
-
     description:
       "Developed responsive frontend interfaces using HTML, CSS, JavaScript, and CodeIgniter while collaborating closely with UI/UX designers and backend developers.",
-
     technologies: [
       "CodeIgniter",
       "HTML",
       "CSS",
       "JavaScript",
     ],
-
     impact: [
       "Responsive user interface",
       "Cross-team collaboration",
       "Improved user experience",
     ],
-
-    live: "",
-
-    github: "",
-  },
-
-  {
-    id: 11,
-
-    title: "GIJAS HTML5 Platform Game",
-
-    category: "HTML5 Game",
-
-    client: "Personal Project",
-
-    company: "Personal",
-
-    year: "2020",
-
-    role: "Game Developer",
-
-    image: "/projects/gijas.jpg",
-
-    description:
-      "Designed and developed a 2D HTML5 platform game using Construct 2, covering gameplay mechanics, level design, and final production deployment.",
-
-    technologies: [
-      "Construct 2",
-      "HTML5",
-    ],
-
-    impact: [
-      "Complete game development",
-      "Gameplay implementation",
-      "Production-ready release",
-    ],
-
-    live: "",
-
+    live: "https://www.k-radiojember.com/",
     github: "",
   },
 ];

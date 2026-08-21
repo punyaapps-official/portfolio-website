@@ -18,12 +18,12 @@ function WorkflowAutomation() {
     "Zapier",
     "n8n",
     "GoHighLevel",
-    "REST API",
-    "Webhooks",
-    "OpenAI",
     "Google Sheets",
-    "WordPress",
-    "HelpScout",
+    "Google Workspace",
+    "Calendly",
+    "Cloudways",
+    "Cloudflare",
+    "REST API",
   ];
 
   return (
@@ -74,7 +74,7 @@ function WorkflowAutomation() {
               </h4>
 
               <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
-                Form Submission
+                Form, Booking, or Payment
               </p>
 
             </div>
@@ -118,7 +118,7 @@ function WorkflowAutomation() {
 
                 <Globe className="text-neutral-900 dark:text-neutral-100" />
 
-                <span>WordPress</span>
+                <span>WordPress / GoHighLevel</span>
 
               </div>
 
@@ -126,7 +126,7 @@ function WorkflowAutomation() {
 
                 <Mail className="text-neutral-900 dark:text-neutral-100" />
 
-                <span>HelpScout / Gmail</span>
+                <span>Email & Client Notifications</span>
 
               </div>
 
@@ -134,7 +134,7 @@ function WorkflowAutomation() {
 
                 <Database className="text-neutral-900 dark:text-neutral-100" />
 
-                <span>CRM & Database</span>
+                <span>Google Sheets / Drive</span>
 
               </div>
 
@@ -157,13 +157,13 @@ function WorkflowAutomation() {
             <div className="mt-8 space-y-5">
 
               {[
-                "API Integration between multiple platforms",
-                "WordPress & CRM synchronization",
-                "Payment & invoice automation",
-                "Customer onboarding workflow",
-                "Support ticket automation",
-                "Email & notification workflows",
-                "AI-powered business processes",
+                "Client intake & consultation forms synced to CRM/Sheets",
+                "Booking & scheduling automation with Calendly",
+                "Monthly automated client reporting via email",
+                "Payment-triggered document generation",
+                "WordPress & GoHighLevel integration",
+                "Email, notification & reminder workflows",
+                "Team workspace & access management automation",
               ].map((item) => (
 
                 <div
