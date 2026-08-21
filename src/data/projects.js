@@ -238,9 +238,9 @@ export const projects = [
 
   {
     id: 10,
-    title: "Java Legal",
+    title: "Java Legal Solution",
     category: "Corporate Website",
-    client: "Java Legal",
+    client: "Java Legal Solution",
     company: "Freelance",
     year: "2025",
     role: "WordPress Developer",
